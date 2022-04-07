@@ -48,7 +48,7 @@ cd WMassTS
 ```
 In next step: 
 1. change storage path in the file **skeleton/crab_nanogen_basefile.py** .
-2. cd crab_submit_files
+2. ```cd crab_submit_files```
 3. change/create new **.json** file to change gridpack location, name, input data tag, Nevents, Njobs etc... One can put many sample names in the same json file.
 
 Run:
