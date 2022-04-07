@@ -12,4 +12,5 @@ cmsenv
 ```
 Checkout this framework and switch to this branch:
 ```
-git clone -b 
+git clone -b NanoGen_Production https://github.com/tanmayvb/WMassTS.git
+
