@@ -1,0 +1,33 @@
+{
+    "WminusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos":{
+	"fragmentname": "Configuration/GenProduction/python/Wminus_Powheg_MinNLO_With_Photos/WminusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV_powheg_MiNNLO_pythia8_photos.py",
+	"RequestName": "NanoGen_WminusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+	"WorkArea": "Crab_WminusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+	"CfgFile": "WminusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+	"OutputPrimaryDataset": "v1_WminusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+	"OutputDatasetTag": "RunII20UL17_NanoGen",
+	"Nevents": "10000",
+	"Njobs": "500"
+    },
+    "WplusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos":{
+        "fragmentname": "Configuration/GenProduction/python/Wplus_Powheg_MinNLO_With_Photos/WplusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV_powheg_MiNNLO_pythia8_photos.py",
+	"RequestName": "NanoGen_WplusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+	"WorkArea": "WplusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+	"CfgFile": "WplusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+	"OutputPrimaryDataset": "v1_WplusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+	"OutputDatasetTag": "RunII20UL17_NanoGen",
+	"Nevents": "10000",
+	"Njobs": "500"
+    },
+    "ZJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos":{
+        "fragmentname": "Configuration/GenProduction/python/ZJetsToMuMu_Powheg_MinNLO_With_Photos/ZJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV_powheg_MiNNLO_pythia8_photos.py",
+        "RequestName": "NanoGen_ZJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+        "WorkArea": "ZJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+        "CfgFile": "ZJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+        "OutputPrimaryDataset": "v1_ZJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos",
+        "OutputDatasetTag": "RunII20UL17_NanoGen",
+        "Nevents": "10000",
+        "Njobs": "500"
+    }
+   
+}

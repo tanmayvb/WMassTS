@@ -1,0 +1,10 @@
+#!/bin/bash
+cmsDriver.py Configuration/GenProduction/python/ZJetsToMuMu_Powheg_MinNLO_With_Photos/ZJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV_powheg_MiNNLO_pythia8_photos.py --fileout file:WminusJetsToMuNu_svn3900_BugFix.root --mc --eventcontent NANOAODSIM --datatier NANOAOD --conditions auto:mc --step LHE,GEN,NANOGEN --python_filename ../configs/config_ZJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos.py --customise_commands process.RandomNumberGeneratorService.externalLHEProducer.initialSeed=96662 nprocess.externalLHEProducer.generateConcurrently=True --nThreads 4 -n 30 --no_exec
+
+cmsDriver.py Configuration/GenProduction/python/Wplus_Powheg_MinNLO_With_Photos/WplusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV_powheg_MiNNLO_pythia8_photos.py --fileout file:WminusJetsToMuNu_svn3900_BugFix.root --mc --eventcontent NANOAODSIM --datatier NANOAOD --conditions auto:mc --step LHE,GEN,NANOGEN --python_filename ../configs/config_WplusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos.py --customise_commands process.RandomNumberGeneratorService.externalLHEProducer.initialSeed=1613 nprocess.externalLHEProducer.generateConcurrently=True --nThreads 4 -n 30 --no_exec
+
+cmsDriver.py Configuration/GenProduction/python/Wminus_Powheg_MinNLO_With_Photos/WminusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV_powheg_MiNNLO_pythia8_photos.py --fileout file:WminusJetsToMuNu_svn3900_BugFix.root --mc --eventcontent NANOAODSIM --datatier NANOAOD --conditions auto:mc --step LHE,GEN,NANOGEN --python_filename ../configs/config_WminusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos.py --customise_commands process.RandomNumberGeneratorService.externalLHEProducer.initialSeed=60036 nprocess.externalLHEProducer.generateConcurrently=True --nThreads 4 -n 30 --no_exec
+
+crab submit crab_submit_ZJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos.py
+crab submit crab_submit_WplusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos.py
+crab submit crab_submit_WminusJetsToMuNu_svn3900_BugFix_TuneCP5_13TeV-powheg-MiNNLO-pythia8-photos.py
