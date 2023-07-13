@@ -86,7 +86,7 @@ def plot2d(hname,xlabel, ylabel, figname):
 
 ##Using Now###
 #outfilemain = openFilemain('w_z_gen_dists_scetlib_dyturboCorr.hdf5')
-outfilemain = openFilemain('w_z_gen_dists_scetlib_dyturboCorr_eightQbins.hdf5')
+#outfilemain = openFilemain('w_z_gen_dists_scetlib_dyturboCorr_eightQbins.hdf5')
 #outfilemain = openFilemain('w_z_gen_dists_no_offsets_withQbins_withpdf.hdf5')
 ##Using Now###
 
@@ -97,6 +97,13 @@ outfilemain = openFilemain('w_z_gen_dists_scetlib_dyturboCorr_eightQbins.hdf5')
 #wphist= outfilemain["WplusmunuPostVFP"]["output"]["nominal_gen_pdfMSHT20alphaS002_pdfhelicity"]
 #wmhist = outfilemain["WminusmunuPostVFP"]["output"]["nominal_gen_pdfMSHT20alphaS002_pdfhelicity"]
 #zhist = outfilemain["ZmumuPostVFP"]["output"]["nominal_gen_pdfMSHT20alphaS002_pdfhelicity"]
+
+##Test for Luis
+#outfilemain = openFilemain('/scratchnvme/tanmay/OutPut_2016/Gen/Q1to13000/Pt0to100/w_z_gen_dists_scetlib_dyturboCorr_Pt0to100.hdf5')
+
+outfilemain = openFilemain('/home/users/tanmay/WMass/V3/ForLuis/w_z_gen_dists_scetlib_dyturboCorr_Pt1to100.hdf5')
+
+
 
 wphist= outfilemain["WplusmunuPostVFP"]["output"]["helicity_moments_scale"]
 wmhist = outfilemain["WminusmunuPostVFP"]["output"]["helicity_moments_scale"]
